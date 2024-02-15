@@ -1,5 +1,4 @@
-def printStats(t):
-# def printStats(t):
+
 
 def print_stats_decorator(func):
 

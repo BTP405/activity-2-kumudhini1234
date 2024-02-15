@@ -27,7 +27,7 @@ def graphSnowfall(t):
     except FileNotFoundError:
         print(f"Error: File '{t}' not found.")
 
-# Example usage:
+# Example :
 file_path = 'snowfall_data.txt'  
 graphSnowfall(file_path)
 

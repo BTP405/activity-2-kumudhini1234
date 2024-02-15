@@ -1,4 +1,3 @@
-def getPrimeNumbers(n):
 #def getPrimeNumbers(n):
 
 
@@ -14,6 +13,6 @@ def getPrimeNumbers(n):
     return [i for i in range(2, n+1) if is_prime(i)]
 
 # Example usage:
-n = 20  # You can replace this with any positive integer
+n = 20 
 prime_numbers = getPrimeNumbers(n)
 print(prime_numbers)

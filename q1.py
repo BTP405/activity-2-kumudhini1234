@@ -12,7 +12,7 @@ def is_prime(num):
 def getPrimeNumbers(n):
     return [i for i in range(2, n+1) if is_prime(i)]
 
-# Example usage:
+# Example 
 n = 20 
 prime_numbers = getPrimeNumbers(n)
 print(prime_numbers)

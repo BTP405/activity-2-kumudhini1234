@@ -22,8 +22,8 @@ def wordCount(t):
         print(f"Error: File '{t}' not found.")
         return None
 
-# Example usage:
-file_path = 'text_file.txt'  # Replace with your file path
+# Example:
+file_path = 'text_file.txt' 
 result = wordCount(file_path)
 
 if result is not None:

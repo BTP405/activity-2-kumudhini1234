@@ -1,4 +1,3 @@
-def graphSnowfall(t):
 
 #def graphSnowfall(t):
 
@@ -29,6 +28,6 @@ def graphSnowfall(t):
         print(f"Error: File '{t}' not found.")
 
 # Example usage:
-file_path = 'snowfall_data.txt'  # Replace with your file path
+file_path = 'snowfall_data.txt'  
 graphSnowfall(file_path)
 

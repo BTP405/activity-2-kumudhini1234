@@ -27,6 +27,6 @@ def printStats(file_path):
         print(f"Error: File '{file_path}' not found.")
         return []
 
-# Example usage:
+# Example:
 file_path = 'sample.txt'  
 printStats(file_path)
